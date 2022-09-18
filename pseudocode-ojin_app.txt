@@ -1,0 +1,21 @@
+PROGRAM OjinFood
+
+OPEN Ojin App
+SELECT MENU Ojin Food
+
+WHILE ingin order:
+	SEARCH Makanan yang diinginkan
+	DECIDE AMOUNT Makanan
+        ADD TO Keranjang
+
+SELECT Order Sekarang
+
+If Metode Pembayaran == Cash:
+   PAY melalui driver
+else if Metode Pembayaran == transfer:
+   PAY melalui transfer
+   WAIT Verifikasi Pembayaran
+
+WAIT Orderan diantar
+
+Output Orderan Tiba
